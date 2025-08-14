@@ -84,7 +84,7 @@ best_model.fit(X_train, y_train.ravel())
 
 
 if (selected == 'Dataset'):
-    st.image("image.jpg", caption="Ilustrasi menanam padi", use_column_width=True)
+    st.image("image.jpg", caption="Ilustrasi menanam padi", use_container_width=True)
     st.info("TUJUAN PENELITIAN")
     st.write("""
 Penelitian ini dilakukan dengan tujuan untuk menganalisis pengaruh penggunaan kernel dan parameter dari metode Support Vector Regression (SVR)  dalam membangun model prediksi produksi padi serta menilai seberapa baik model yang dibangun dalam meminimalkan nilai Mean Absolute Percentage Error (MAPE).
